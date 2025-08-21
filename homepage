@@ -1,0 +1,122 @@
+
+-----
+
+### **1. WebSite Schema**
+
+This snippet defines your website and enables the potential **sitelinks search box** in Google search results.
+
+```json
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "PQSJAPAN",
+  "url": "https://pqsjapan.jp/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://pqsjapan.jp/search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+```
+
+-----
+
+### **2. Organization Schema**
+
+This snippet provides details about your company, **PQSJAPAN**, including its logo and social media profiles.
+
+```json
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "PQSJAPAN",
+  "url": "https://pqsjapan.jp/",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://pqsjapan.jp/logo.png"
+  },
+  "sameAs": [
+    "https://www.facebook.com/pqsjapan",
+    "https://www.linkedin.com/company/pqsjapan",
+    "https://twitter.com/pqsjapan"
+  ]
+}
+</script>
+```
+
+-----
+
+### **3. BreadcrumbList Schema**
+
+This snippet adds a basic breadcrumb trail for the homepage, which helps search engines understand its position in your site's hierarchy.
+
+```json
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://pqsjapan.jp/"
+    }
+  ]
+}
+</script>
+```
+
+-----
+
+### **4. SiteNavigationElement Schema**
+
+This snippet helps search engines understand your main website navigation, which can lead to better **sitelinks** in search results.
+
+```json
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SiteNavigationElement",
+  "name": "Main Navigation",
+  "itemListElement": [
+    {
+      "@type": "SiteNavigationElement",
+      "position": 1,
+      "name": "All Stock",
+      "url": "https://pqsjapan.jp/all-stock"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 2,
+      "name": "Truck Stock",
+      "url": "https://pqsjapan.jp/truck-stock"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 3,
+      "name": "Back Order",
+      "url": "https://pqsjapan.jp/stock-list"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 4,
+      "name": "Local",
+      "url": "https://pqsjapan.jp/local"
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "position": 5,
+      "name": "Contact Us",
+      "url": "https://pqsjapan.jp/contact"
+    }
+  ]
+}
+</script>
+```
