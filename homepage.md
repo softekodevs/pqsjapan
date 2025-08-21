@@ -1,9 +1,20 @@
+# PQSJAPAN Homepage Schema Documentation
+
+This document provides the structured data (JSON-LD) schemas for the **PQSJAPAN** homepage. These code snippets are designed to be copied and pasted directly into the `<head>` section of the homepage's HTML file to improve SEO and search engine visibility.
+
+-----
+
+### How to Use
+
+1.  **Copy the code:** Select and copy the entire `<script>` block for each schema you want to implement.
+2.  **Paste into HTML:** Paste the code into the `<head>` section of your `index.html` or homepage file.
+3.  **Validate:** After deployment, use Google's [Rich Results Test](https://search.google.com/test/rich-results) to ensure the schemas are free of errors and correctly recognized.
 
 -----
 
 ### **1. WebSite Schema**
 
-This snippet defines your website and enables the potential **sitelinks search box** in Google search results.
+This schema defines your website as a whole. It includes the `potentialAction` property to enable the **sitelinks search box** in search results, allowing users to search your site directly from Google.
 
 ```json
 <script type="application/ld+json">
@@ -28,7 +39,7 @@ This snippet defines your website and enables the potential **sitelinks search b
 
 ### **2. Organization Schema**
 
-This snippet provides details about your company, **PQSJAPAN**, including its logo and social media profiles.
+This schema provides details about the **PQSJAPAN** brand. It helps Google understand your company's official name, logo, and social media profiles.
 
 ```json
 <script type="application/ld+json">
@@ -54,7 +65,7 @@ This snippet provides details about your company, **PQSJAPAN**, including its lo
 
 ### **3. BreadcrumbList Schema**
 
-This snippet adds a basic breadcrumb trail for the homepage, which helps search engines understand its position in your site's hierarchy.
+Use this schema to define the breadcrumb trail for the homepage. It helps search engines understand the page's position in the site hierarchy.
 
 ```json
 <script type="application/ld+json">
@@ -77,7 +88,7 @@ This snippet adds a basic breadcrumb trail for the homepage, which helps search 
 
 ### **4. SiteNavigationElement Schema**
 
-This snippet helps search engines understand your main website navigation, which can lead to better **sitelinks** in search results.
+This schema provides structured data for the main navigation menu. It helps search engines understand your key site links, which may improve the quality of **sitelinks** in SERPs.
 
 ```json
 <script type="application/ld+json">
