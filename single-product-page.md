@@ -1,4 +1,4 @@
-**Single product page schema**, separated into **individual script tags**:
+# **Single product page schema**, separated into **individual script tags**:
 
 ---
 
