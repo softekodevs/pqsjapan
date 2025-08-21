@@ -180,7 +180,3 @@ This page is more specific than the `/local` overview:
 * **Google understands `/local/zimbabwe` is a country-specific collection page**.
 * **Vehicles are clearly marked with `ItemList → Product → Offer`**.
 * **Breadcrumb navigation + Place schema reinforce Zimbabwe targeting**.
-
----
-
-👉 Do you also want me to prepare a **dynamic schema template** (where variables auto-fill product name, ID, image, price, country) so it can be integrated into PQSJAPAN’s backend for **all countries automatically**?
