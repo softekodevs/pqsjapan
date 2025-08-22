@@ -21,8 +21,12 @@ This schema defines your website as a whole. It includes the `potentialAction` p
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "PQSJAPAN",
+  "@id": "https://pqsjapan.jp/#website",
   "url": "https://pqsjapan.jp/",
+  "name": "PQSJAPAN",
+  "publisher": {
+    "@id": "https://pqsjapan.jp/#organization"
+  },
   "potentialAction": {
     "@type": "SearchAction",
     "target": {
@@ -33,6 +37,7 @@ This schema defines your website as a whole. It includes the `potentialAction` p
   }
 }
 </script>
+
 ```
 
 -----
