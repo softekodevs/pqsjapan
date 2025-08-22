@@ -176,6 +176,109 @@
 </script>
 ```
 
+### **6. ItemList Schema**
+
+```json
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "@id": "https://pqsjapan.jp/order/toyota/#itemlist",
+  "name": "Toyota Models For Sale",
+  "description": "Browse our selection of high-quality used Toyota vehicles available for order and import from Japan.",
+  "url": "https://pqsjapan.jp/order/toyota",
+  "numberOfItems": 3,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Product",
+        "name": "Toyota Vitz",
+        "description": "Compact and fuel-efficient, the Toyota Vitz is a popular choice for city driving.",
+        "url": "https://pqsjapan.jp/order/toyota/vitz",
+        "image": "https://pqsjapan.jp/images/vitz.jpg",
+        "brand": {
+          "@type": "Brand",
+          "name": "Toyota"
+        },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": "4500",
+          "availability": "https://schema.org/InStock",
+          "itemCondition": "https://schema.org/UsedCondition",
+          "url": "https://pqsjapan.jp/order/toyota/vitz"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.5",
+          "reviewCount": "25"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Product",
+        "name": "Toyota Land Cruiser",
+        "description": "The legendary Toyota Land Cruiser, a durable and powerful SUV for any terrain.",
+        "url": "https://pqsjapan.jp/order/toyota/land-cruiser",
+        "image": "https://pqsjapan.jp/images/land-cruiser.jpg",
+        "brand": {
+          "@type": "Brand",
+          "name": "Toyota"
+        },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": "15000",
+          "availability": "https://schema.org/InStock",
+          "itemCondition": "https://schema.org/UsedCondition",
+          "url": "https://pqsjapan.jp/order/toyota/land-cruiser"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "reviewCount": "50"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Product",
+        "name": "Toyota Regiusace Van",
+        "description": "A reliable and spacious commercial van, perfect for business or personal use.",
+        "url": "https://pqsjapan.jp/order/toyota/regiusace-van",
+        "image": "https://pqsjapan.jp/images/regiusace.jpg",
+        "brand": {
+          "@type": "Brand",
+          "name": "Toyota"
+        },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": "6200",
+          "availability": "https://schema.org/InStock",
+          "itemCondition": "https://schema.org/UsedCondition",
+          "url": "https://pqsjapan.jp/order/toyota/regiusace-van"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.1",
+          "reviewCount": "15"
+        }
+      }
+    }
+  ]
+}
+</script>
+```
+
+
 ---
 
 ✅ With this setup:
