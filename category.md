@@ -8,8 +8,11 @@
   "@context": "https://schema.org",
   "@type": "WebSite",
   "@id": "https://pqsjapan.jp/#website",
-  "name": "PQSJAPAN",
   "url": "https://pqsjapan.jp/",
+  "name": "PQSJAPAN",
+  "publisher": {
+    "@id": "https://pqsjapan.jp/#organization"
+  },
   "potentialAction": {
     "@type": "SearchAction",
     "target": {
@@ -20,6 +23,7 @@
   }
 }
 </script>
+
 ```
 
 ---
