@@ -46,19 +46,25 @@ This schema provides details about the **PQSJAPAN** brand. It helps Google under
 {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://pqsjapan.jp/#organization",
   "name": "PQSJAPAN",
   "url": "https://pqsjapan.jp/",
-  "logo": {
-    "@type": "ImageObject",
-    "url": "https://pqsjapan.jp/logo.png"
-  },
+  "logo": "https://pqsjapan.jp/logo.png",
   "sameAs": [
     "https://www.facebook.com/pqsjapan",
-    "https://www.linkedin.com/company/pqsjapan",
-    "https://twitter.com/pqsjapan"
-  ]
+    "https://twitter.com/pqsjapan",
+    "https://www.linkedin.com/company/pqsjapan"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+81-123-456-789",
+    "contactType": "Customer Service",
+    "areaServed": "Worldwide",
+    "availableLanguage": ["en", "ja"]
+  }
 }
 </script>
+
 ```
 
 -----
